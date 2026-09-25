@@ -1,0 +1,34 @@
+﻿@model StudentManagementSystemMVC.Models.LoginModel
+
+<h2>Admin Login</h2>
+
+<form method="post">
+
+    Username
+
+    <br />
+
+    <input asp-for="Username" />
+
+    <br /><br />
+
+    Password
+
+    <br />
+
+    <input asp-for="Password"
+           type="password" />
+
+    <br /><br />
+
+    <button type="submit">
+        Login
+    </button>
+
+</form>
+
+<br />
+
+<span>
+    @ViewBag.Message
+</span>

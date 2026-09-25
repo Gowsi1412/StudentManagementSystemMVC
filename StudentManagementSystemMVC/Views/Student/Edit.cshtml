@@ -1,0 +1,29 @@
+﻿@model StudentManagementSystemMVC.Models.Student
+
+<h2>Edit Student</h2>
+
+<form method="post">
+
+    <input asp-for="StudentID" type="hidden" />
+
+    Name:
+    <input asp-for="Name" />
+    <br /><br />
+
+    Age:
+    <input asp-for="Age" />
+    <br /><br />
+
+    Class:
+    <input asp-for="Class" />
+    <br /><br />
+
+    Email:
+    <input asp-for="Email" />
+    <br /><br />
+
+    <button type="submit">
+        Update
+    </button>
+
+</form>
